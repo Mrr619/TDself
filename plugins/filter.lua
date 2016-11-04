@@ -98,11 +98,11 @@ end
 
 return {
   patterns = {
-   "^([!/#])(rw) (.*)$",
-   "^([!/#])(filter) (.*)$",
-   "^([!/#])(unfilter) (.*)$",
-   "^([!/#])(filterlist)$",
-   "^([!#/])(clean) filterlist$",
+   "^([Rr]w) (.*)$",
+   "^([Ff]ilter) (.*)$",
+   "^([Uu}nfilter) (.*)$",
+   "^([Ff]ilterlist)$",
+   "^([Cc]lean) filterlist$",
 "^(.+)$",
 	   
   },
